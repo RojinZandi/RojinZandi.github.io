@@ -1,36 +1,22 @@
 ---
-layout: archive
-title: "Publications"
 permalink: /publications/
-author_profile: true
+title: "Publications"
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+## Journal Papers
 
-{% include base_path %}
+- **R. Zandi** et al., "RoboFiSense: Attention-Based Robotic Arm Activity Recognition with WiFi Sensing," *IEEE Journal of Selected Topics in Signal Processing (JSTSP)*, 2024.
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+- K. Behzad, **R. Zandi** et al., "RoboMNIST: A Multimodal Dataset for Multi-Robot Activity Recognition," *Nature Scientific Data*, 2025.
 
+## Conference Papers
 
+- **R. Zandi** et al., "Beyond Amplitude: CSI Phase-Aware Deep Fusion for Robotic Activity Recognition," *IEEE ICASSP*, 2026. (Accepted)
 
+- **R. Zandi** et al., "Enhancing Robotic Arm Activity Recognition with Vision Transformers and CSI," *IEEE PIMRC*, 2024.
+
+- E. Motamedi, **R. Zandi** et al., "Robustness Evaluation of ML Models for Robot Arm Action Recognition in Noisy Environments," *IEEE ICASSP*, 2024.
+
+- **R. Zandi** et al., "Robot Motion Prediction by Channel State Information," *IEEE MLSP*, 2023.
+
+<!-- TIP: Add links to each paper (DOI, arXiv, or PDF) and optionally a [Code] link to the GitHub repo -->
