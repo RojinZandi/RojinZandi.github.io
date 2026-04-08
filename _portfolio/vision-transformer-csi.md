@@ -1,6 +1,6 @@
 ---
 title: "Vision Transformers + CSI"
-excerpt: "Enhancing robotic arm activity recognition with Vision Transformers and CSI.<br/><img src='/images/portfolio/vit-csi.png'>"
+excerpt: "Enhancing robotic arm activity recognition with Vision Transformers and CSI"
 collection: portfolio
 ---
 
