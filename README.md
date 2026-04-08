@@ -22,3 +22,4 @@ I research multimodal sensing, WiFi-based perception, and deep learning for acti
 - [Google Scholar](https://scholar.google.com/citations?user=BYS_v0kAAAAJ&hl=en)
 - [LinkedIn](https://www.linkedin.com/in/rojin-zandi/)
 - [GitHub](https://github.com/RojinZandi)
+
