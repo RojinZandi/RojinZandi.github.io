@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student in the Department of Electrical and Computer Engineering at [Northeastern University](https://www.northeastern.edu/), where I research **multimodal sensing**, **WiFi-based perception**, and **deep learning for activity recognition**.
+I am a PhD student in the Department of Electrical and Computer Engineering at [Northeastern University](https://www.northeastern.edu/), where I research **multimodal sensing**, **WiFi-based perception**, and **deep learning for imitation leanring and activity recognition**, under supervision of Dr. Milad Siami.
 
 My work focuses on fusing radio-frequency signals (WiFi Channel State Information) with other sensing modalities to enable robust, non-intrusive recognition of human and robotic activities. I design transformer- and attention-based architectures for cross-modal fusion and have contributed to open multimodal datasets used by the research community.
 
