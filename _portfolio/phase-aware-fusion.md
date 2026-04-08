@@ -4,7 +4,7 @@ excerpt: "CSI phase-aware deep fusion for robotic activity recognition.<br/><img
 collection: portfolio
 ---
 
-Novel fusion method that goes beyond amplitude-only CSI features by incorporating phase information through a dedicated deep fusion architecture for robotic activity recognition.
+Novel fusion method that goes beyond amplitude-only CSI features by incorporating phase information through a dedicated deep fusion architecture for robotic activity recognition. 
 
 **Accepted at:** IEEE ICASSP, 2026
 
