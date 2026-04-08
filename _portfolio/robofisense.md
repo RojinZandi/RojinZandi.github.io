@@ -1,6 +1,6 @@
 ---
 title: "RoboFiSense"
-excerpt: "Attention-based robotic arm activity recognition using WiFi sensing.<br/><img src='/images/portfolio/robofisense.png'>"
+excerpt: "Attention-based robotic arm activity recognition using WiFi sensing."
 collection: portfolio
 ---
 
