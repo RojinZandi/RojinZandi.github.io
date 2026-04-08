@@ -1,30 +1,12 @@
 ---
+layout: archive
+title: "Projects"
 permalink: /portfolio/
-title: "Portfolio"
+author_profile: true
 ---
 
-## Research Projects
+{% include base_path %}
 
-### RoboFiSense
-Attention-based framework for robotic arm activity recognition using WiFi Channel State Information. Designed a multi-head attention architecture that processes amplitude and phase information from CSI signals to classify robotic activities without cameras or wearables.
-<!-- Add: [Paper](#) | [Code](https://github.com/RojinZandi/...) -->
-
-### RoboMNIST
-A large-scale multimodal dataset for multi-robot activity recognition, combining WiFi CSI, video, and other sensing modalities. Published in Nature Scientific Data (2025) and designed to serve as a benchmark for the multimodal sensing community.
-<!-- Add: [Paper](#) | [Dataset](#) | [Code](https://github.com/...) -->
-
-### Phase-Aware Deep Fusion (ICASSP 2026)
-Novel fusion method that goes beyond amplitude-only CSI features by incorporating phase information through a dedicated deep fusion architecture. Accepted at IEEE ICASSP 2026.
-<!-- Add: [Paper](#) | [Code](#) -->
-
-## Course / Side Projects
-
-### Generative Learning with GANs
-Transferring Monet-style painting to RGB images using CycleGAN.
-[Code](https://github.com/RojinZandi/Generative-Learning-by-GANs)
-
-### NLP on Disaster Tweets
-Classifying disaster-related tweets using GloVe embeddings.
-[Code](https://github.com/RojinZandi/NLP-on-Disaster-Tweets)
-
-<!-- TIP: You can remove the course projects section if you want to keep the focus purely on research -->
+{% for post in site.portfolio %}
+  {% include archive-single.html %}
+{% endfor %}
