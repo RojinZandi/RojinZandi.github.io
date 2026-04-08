@@ -1,6 +1,6 @@
 ---
 title: "RoboMNIST"
-excerpt: "A multimodal dataset for multi-robot activity recognition.<br/><img src='/images/portfolio/robomnist.png'>"
+excerpt: "A multimodal dataset for multi-robot activity recognition"
 collection: portfolio
 ---
 
