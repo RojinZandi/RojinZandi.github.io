@@ -1,6 +1,6 @@
 ---
 title: "Beyond Amplitude: CSI Phase-Aware Deep Fusion"
-excerpt: "CSI phase-aware deep fusion for robotic activity recognition.<br/><img src='/images/portfolio/phase-fusion.png'>"
+excerpt: "CSI phase-aware deep fusion for robotic activity recognition"
 collection: portfolio
 ---
 
